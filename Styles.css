@@ -1,0 +1,118 @@
+body{
+    margin: auto;
+    background-color: #07031a;
+
+}
+.bkgimg{
+  margin-top: 12%;
+  width: 1362px;
+  height: 420px;
+  /*width: 1440px;*/
+
+}
+.mainbk{
+  display: inline-block;
+  position: relative;
+}
+
+/*.rect-curve{
+  position: absolute;
+  top: 25%;
+  left:20%;
+  width: 15rem;
+  height: 8rem;
+}
+.rect-bars{
+  position: absolute;
+  top: 25%;
+  left:40%;
+}
+*/
+.curve-corner {
+  border-radius: 10px 50px 10px 10px;
+  background: hsl(228, 56%, 26%);
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 200px;
+  height: 80px;
+
+  }
+  .rectangle {
+    border-radius: 10px;
+    background: hsl(228, 56%, 26%);
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 400px;
+    height: 80px;
+    color: white;
+
+    }
+
+    progress {
+  -webkit-appearance: none;
+  border-width: 70px;
+  position: absolute;
+}
+
+::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 50PX;
+  border: 2px /*solid black*/;
+  width: 400px
+  }
+::-webkit-progress-value {
+  background-color: #ff005c;
+  border-radius: 50PX;
+}
+
+.progr{
+  position: absolute;
+
+
+}
+
+.icons{
+  padding:5px;
+  height: 30px;
+  background-color: #07031a;
+  margin-top: 40px;
+}
+.logo{
+  height: 30px;
+  margin-top: 0;
+  position: absolute;
+}
+.chart_text{
+  position: absolute;
+  margin-left: 270px;
+  top: -20px;
+  color: black;
+  z-index: 1;
+}
+
+.chart{
+  height: 70px;
+  margin-left: 250px;
+  position: absolute;
+  top: -25px;
+
+}
+.o {
+    float:"right";
+    color: White;
+
+}
+    /*.meter {
+	height: 10px;  /* Can be anything
+  width: 60px;
+	position: absolute;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3); */
