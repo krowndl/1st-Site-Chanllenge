@@ -101,9 +101,12 @@ body{
   top: -25px;
 
 }
-.o {
-    float:"right";
-    color: White;
+a
+  {
+      color: #FFF600;
+      text-decoration: none;
+      text-align: right;
+      margin-top: 1px;
 
 }
     /*.meter {
