@@ -101,16 +101,11 @@ body{
   top: -25px;
 
 }
-a
-  {
-      color: #FFF600;
+a{
+	color: #FFF600;
       text-decoration: none;
-      text-align: right;
-      margin-right: 30px;
-      margin-top: -20px;
-     
-
-}
+      margin-left: 1000px;
+   }
     /*.meter {
 	height: 10px;  /* Can be anything
   width: 60px;
